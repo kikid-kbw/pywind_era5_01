@@ -77,7 +77,7 @@ key: YOUR_API_KEY
 ```
 pywind_era5_01/
 │
-├── era5_uv10_down_vis.ipynb
+├── era5_uv10_download_visualize.ipynb
 ├── output/
 │   └── plotwind.png
 ├── data/ (optional)
@@ -101,10 +101,10 @@ cd pywind_era5_01
 jupyter notebook
 ```
 
-Then open:
+Then import:
 
 ```
-era5_uv10_down_vis.ipynb
+era5_uv10_download_visualize.ipynb
 ```
 3. Execute Notebook
 * Run all cells from top to bottom
