@@ -1,0 +1,3 @@
+*.grib
+*.idx
+__pycache__/
