@@ -77,7 +77,7 @@ key: YOUR_API_KEY
 ```
 pywind_era5_01/
 │
-├── Wind_ERA5_Visualization.ipynb
+├── era5_uv10_down_vis.ipynb
 ├── output/
 │   └── plotwind.png
 ├── data/ (optional)
