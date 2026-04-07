@@ -88,10 +88,31 @@ pywind_era5_01/
 
 ## How to Use
 
-1. Run the notebook step-by-step
-2. Download ERA5 data (u10 & v10)
-3. Load GRIB files
-4. Visualize wind field
+1. Clone Repository
+
+Using Anaconda Prompt
+
+```bash
+git clone https://github.com/kikid-kbw/pywind_era5_01.git
+cd pywind_era5_01
+```
+2. Run Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```
+era5_uv10_down_vis.ipynb
+```
+3. Execute Notebook
+* Run all cells from top to bottom
+* The script will:
+
+  * Download ERA5 wind data (u10 & v10)
+  * Load GRIB files
+  * Generate wind visualization
 
 ---
 
@@ -103,9 +124,10 @@ pywind_era5_01/
 
 ## Notes
 
-* ERA5 data is downloaded from Copernicus Climate Data Store
+* ERA5 data is downloaded automatically from Copernicus Climate Data Store using CDS API
 * Time selection can be adjusted using `TIME_INDEX`
 * Visualization uses a combination of contour and vector plots
+* Make sure internet connection is active during download
 
 ---
 
