@@ -1,6 +1,6 @@
 # ERA5 Wind Data Visualization
 
-This project demonstrates how to download and visualize ERA5 wind data (u10 & v10) using Python.
+This project demonstrates how to download and visualize ERA5 wind data (u10 & v10) using Jupyter Notebook.
 
 ## Features
 
@@ -75,9 +75,9 @@ key: YOUR_API_KEY
 ## Project Structure
 
 ```
-era5-wind-visualization/
+pywind_era5_01/
 │
-├── notebook_1_era5_visualization.ipynb
+├── Wind_ERA5_Visualization.ipynb
 ├── output/
 │   └── plotwind.png
 ├── data/ (optional)
